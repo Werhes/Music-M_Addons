@@ -1,0 +1,4 @@
+c:\Users\Werhes\Documents\GitHub\Music-M_Addons\Addons\VkMusicTime\obj\x64\Debug\net8.0-windows10.0.22621\VkMusicTime.csproj.AssemblyReference.cache
+c:\Users\Werhes\Documents\GitHub\Music-M_Addons\Addons\VkMusicTime\obj\x64\Debug\net8.0-windows10.0.22621\VkMusicTime.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Werhes\Documents\GitHub\Music-M_Addons\Addons\VkMusicTime\obj\x64\Debug\net8.0-windows10.0.22621\VkMusicTime.csproj.CoreCompileInputs.cache
+c:\Users\Werhes\Documents\GitHub\Music-M_Addons\Addons\VkMusicTime\obj\x64\Debug\net8.0-windows10.0.22621\VkMusicTime.sourcelink.json

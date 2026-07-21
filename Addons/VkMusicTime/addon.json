@@ -1,0 +1,10 @@
+{
+  "id": "vk_music_time",
+  "name": "VkMusicTime",
+  "version": "1.0.0",
+  "author": "Werhes",
+  "description": "Отслеживает время, проведённое в VK M. Показывает статистику и отправляет уведомления о достижениях: 1 час, 2 часа, 3 часа и т.д.",
+  "minAppVersion": "1.0.0",
+  "addonType": "other",
+  "entryPoint": "VkMusicTime.dll"
+}
