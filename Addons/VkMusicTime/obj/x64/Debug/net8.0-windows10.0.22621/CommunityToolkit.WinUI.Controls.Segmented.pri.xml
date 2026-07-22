@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="CommunityToolkit.WinUI.Controls.Segmented" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="CommunityToolkit.WinUI.Controls.Segmented">
+				<ResourceMapSubtree name="Segmented">
+					<NamedResource name="Segmented.xbf" uri="ms-resource://CommunityToolkit.WinUI.Controls.Segmented/Files/CommunityToolkit.WinUI.Controls.Segmented/Segmented/Segmented.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="SegmentedItem">
+					<NamedResource name="SegmentedItem.xbf" uri="ms-resource://CommunityToolkit.WinUI.Controls.Segmented/Files/CommunityToolkit.WinUI.Controls.Segmented/SegmentedItem/SegmentedItem.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://CommunityToolkit.WinUI.Controls.Segmented/Files/CommunityToolkit.WinUI.Controls.Segmented/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

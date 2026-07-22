@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="WinUICommunity.Components" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="WinUICommunity.Components">
+				<ResourceMapSubtree name="Controls">
+					<ResourceMapSubtree name="ColorPalette">
+						<NamedResource name="ColorPalette.xbf" uri="ms-resource://WinUICommunity.Components/Files/WinUICommunity.Components/Controls/ColorPalette/ColorPalette.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="OOBEPageControl">
+						<NamedResource name="OOBEPageControl.xbf" uri="ms-resource://WinUICommunity.Components/Files/WinUICommunity.Components/Controls/OOBEPageControl/OOBEPageControl.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="SettingsPageControl">
+						<NamedResource name="SettingsPageControl.xbf" uri="ms-resource://WinUICommunity.Components/Files/WinUICommunity.Components/Controls/SettingsPageControl/SettingsPageControl.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="Shortcut">
+						<NamedResource name="ShortcutDialogContentControl.xbf" uri="ms-resource://WinUICommunity.Components/Files/WinUICommunity.Components/Controls/Shortcut/ShortcutDialogContentControl.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ShortcutWithTextLabelControl.xbf" uri="ms-resource://WinUICommunity.Components/Files/WinUICommunity.Components/Controls/Shortcut/ShortcutWithTextLabelControl.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://WinUICommunity.Components/Files/WinUICommunity.Components/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="InfoBarInformationalColor.xbf" uri="ms-resource://WinUICommunity.Components/Files/WinUICommunity.Components/Themes/InfoBarInformationalColor.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NavigationViewItemStyle.xbf" uri="ms-resource://WinUICommunity.Components/Files/WinUICommunity.Components/Themes/NavigationViewItemStyle.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

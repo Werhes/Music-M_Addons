@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="DevWinUI" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="DevWinUI">
+				<ResourceMapSubtree name="Controls">
+					<ResourceMapSubtree name="Ported">
+						<ResourceMapSubtree name="Sidebar">
+							<NamedResource name="SidebarView.xbf" uri="ms-resource://DevWinUI/Files/DevWinUI/Controls/Ported/Sidebar/SidebarView.xbf">
+								<Candidate type="EmbeddedData">
+									<Base64Value>[Embedded Binary Data]</Base64Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="LandingPages">
+					<NamedResource name="AllLandingPage.xbf" uri="ms-resource://DevWinUI/Files/DevWinUI/LandingPages/AllLandingPage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MainLandingPage.xbf" uri="ms-resource://DevWinUI/Files/DevWinUI/LandingPages/MainLandingPage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SectionPage.xbf" uri="ms-resource://DevWinUI/Files/DevWinUI/LandingPages/SectionPage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://DevWinUI/Files/DevWinUI/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="InfoBarInformationalColor.xbf" uri="ms-resource://DevWinUI/Files/DevWinUI/Themes/InfoBarInformationalColor.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="ItemTemplate">
+						<NamedResource name="GridViewItemTemplate.xbf" uri="ms-resource://DevWinUI/Files/DevWinUI/Themes/ItemTemplate/GridViewItemTemplate.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="LoopingSelectorItemTemplate.xbf" uri="ms-resource://DevWinUI/Files/DevWinUI/Themes/ItemTemplate/LoopingSelectorItemTemplate.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="OutOfBoxItemTemplate.xbf" uri="ms-resource://DevWinUI/Files/DevWinUI/Themes/ItemTemplate/OutOfBoxItemTemplate.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="SidebarItemTemplate.xbf" uri="ms-resource://DevWinUI/Files/DevWinUI/Themes/ItemTemplate/SidebarItemTemplate.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

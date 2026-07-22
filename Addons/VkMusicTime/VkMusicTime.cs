@@ -4,7 +4,6 @@ using VK_UI3;
 using VK_UI3.Addons;
 using VK_UI3.DB;
 using VK_UI3.Services;
-using VK_UI3.Views.Notification;
 
 namespace VkMusicTime
 {
@@ -31,7 +30,6 @@ namespace VkMusicTime
 
         // Флаг для отслеживания, играет ли музыка
         private bool _isMusicPlaying;
-        private TimeSpan _lastPosition;
         private DateTime _musicSessionStart;
 
         // ===== КЛЮЧИ ДЛЯ ХРАНЕНИЯ В БАЗЕ =====
@@ -43,13 +41,12 @@ namespace VkMusicTime
         private const string KEY_FIRST_LAUNCH = "vkmusictime_first_launch";
 
         // ===== ПОРОГИ ДОСТИЖЕНИЙ (В ЧАСАХ) =====
-        // Каждый час до 24, затем особые пороги
         private static readonly int[] HourlyAchievements = GenerateHourlyAchievements();
         private static readonly int[] SpecialAchievements = { 24, 50, 100, 200, 500, 1000 };
 
         private static int[] GenerateHourlyAchievements()
         {
-            var hours = new int[23]; // 1..23
+            var hours = new int[23];
             for (int i = 0; i < 23; i++)
                 hours[i] = i + 1;
             return hours;
@@ -60,7 +57,6 @@ namespace VkMusicTime
             _appStart = DateTime.Now;
             _sessionStart = DateTime.Now;
             _isMusicPlaying = false;
-            _lastPosition = TimeSpan.Zero;
 
             // Сбрасываем счётчик сегодняшнего дня, если новый день
             CheckAndResetDailyCounter();
@@ -71,12 +67,8 @@ namespace VkMusicTime
                 SettingsTable.SetSetting(KEY_FIRST_LAUNCH, DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
             }
 
-            // Подписываемся на события приложения
-            App.Current.Exit += OnAppExit;
-
             // Подписываемся на события плеера для отслеживания прослушивания
             MediaPlayerService.AudioPlayedChangeEvent += OnAudioPlayedChange;
-            MediaPlayerService.PositionChanged += OnPositionChanged;
 
             // Запускаем таймер автосохранения каждые 30 секунд
             _saveTimer = new System.Threading.Timer(
@@ -108,9 +100,7 @@ namespace VkMusicTime
             _isRunning = false;
 
             // Отписываемся от событий
-            App.Current.Exit -= OnAppExit;
             MediaPlayerService.AudioPlayedChangeEvent -= OnAudioPlayedChange;
-            MediaPlayerService.PositionChanged -= OnPositionChanged;
 
             // Останавливаем таймеры
             _saveTimer?.Dispose();
@@ -124,14 +114,6 @@ namespace VkMusicTime
         }
 
         // ===== ОБРАБОТЧИКИ СОБЫТИЙ =====
-
-        /// <summary>
-        /// Вызывается при закрытии приложения
-        /// </summary>
-        private void OnAppExit(object sender, object e)
-        {
-            SaveCurrentSession();
-        }
 
         /// <summary>
         /// Вызывается при смене состояния воспроизведения (играет/пауза)
@@ -148,14 +130,12 @@ namespace VkMusicTime
 
                     if (isPlaying && !_isMusicPlaying)
                     {
-                        // Музыка начала играть
                         _isMusicPlaying = true;
                         _musicSessionStart = DateTime.Now;
                         System.Diagnostics.Debug.WriteLine("[VkMusicTime] Музыка начала играть");
                     }
                     else if (!isPlaying && _isMusicPlaying)
                     {
-                        // Музыка остановилась — сохраняем время прослушивания
                         _isMusicPlaying = false;
                         SaveListeningTime();
                         System.Diagnostics.Debug.WriteLine("[VkMusicTime] Музыка остановилась");
@@ -165,23 +145,6 @@ namespace VkMusicTime
             catch (Exception ex)
             {
                 System.Diagnostics.Debug.WriteLine($"[VkMusicTime] Ошибка в OnAudioPlayedChange: {ex.Message}");
-            }
-        }
-
-        /// <summary>
-        /// Вызывается при изменении позиции трека
-        /// </summary>
-        private void OnPositionChanged(object sender, TimeSpan position)
-        {
-            // Если позиция изменилась и музыка играет — отмечаем это
-            if (_isMusicPlaying && position > _lastPosition)
-            {
-                _lastPosition = position;
-            }
-            else if (position < _lastPosition)
-            {
-                // Трек переключился — сбрасываем позицию
-                _lastPosition = position;
             }
         }
 
@@ -327,7 +290,33 @@ namespace VkMusicTime
             System.Diagnostics.Debug.WriteLine($"[VkMusicTime] Достижение: {hours} часов в VK M!");
         }
 
-        // ===== УВЕДОМЛЕНИЯ =====
+        // ===== УВЕДОМЛЕНИЯ ЧЕРЕЗ РЕФЛЕКСИЮ =====
+
+        /// <summary>
+        /// Создать уведомление через рефлексию (т.к. класс Notification internal)
+        /// </summary>
+        private static void ShowNotification(string header, string message)
+        {
+            try
+            {
+                MainWindow.dispatcherQueue.TryEnqueue(() =>
+                {
+                    try
+                    {
+                        // Загружаем сборку VK UI3 и получаем тип Notification через рефлексию
+                        var assembly = typeof(MainWindow).Assembly;
+                        var notifType = assembly.GetType("VK_UI3.Views.Notification.Notification");
+                        if (notifType != null)
+                        {
+                            // Создаём экземпляр: new Notification(header, message)
+                            Activator.CreateInstance(notifType, new object[] { header, message, null, null });
+                        }
+                    }
+                    catch { }
+                });
+            }
+            catch { }
+        }
 
         /// <summary>
         /// Показать приветственное уведомление
@@ -338,19 +327,13 @@ namespace VkMusicTime
             {
                 var firstLaunch = SettingsTable.GetSetting(KEY_FIRST_LAUNCH)?.settingValue;
                 if (firstLaunch != null)
-                {
-                    // Уже был запуск, не показываем
                     return;
-                }
 
-                MainWindow.dispatcherQueue.TryEnqueue(() =>
-                {
-                    new Notification(
-                        "⏱ VkMusicTime активирован!",
-                        "Теперь я буду отслеживать время, проведённое в VK M.\n" +
-                        "Каждый час ты будешь получать уведомление со статистикой!"
-                    );
-                });
+                ShowNotification(
+                    "⏱ VkMusicTime активирован!",
+                    "Теперь я буду отслеживать время, проведённое в VK M.\n" +
+                    "Каждый час ты будешь получать уведомление со статистикой!"
+                );
             }
             catch { }
         }
@@ -365,16 +348,13 @@ namespace VkMusicTime
             var todayTime = FormatTime(todaySeconds);
             var listeningTime = FormatTime(listeningSeconds);
 
-            MainWindow.dispatcherQueue.TryEnqueue(() =>
-            {
-                new Notification(
-                    $"{emoji} {title}",
-                    $"⏱ Всего: {totalTime}\n" +
-                    $"📅 Сегодня: {todayTime}\n" +
-                    $"🎵 Прослушано: {listeningTime}\n" +
-                    $"📆 В приложении с: {firstLaunch}"
-                );
-            });
+            ShowNotification(
+                $"{emoji} {title}",
+                $"⏱ Всего: {totalTime}\n" +
+                $"📅 Сегодня: {todayTime}\n" +
+                $"🎵 Прослушано: {listeningTime}\n" +
+                $"📆 В приложении с: {firstLaunch}"
+            );
         }
 
         /// <summary>
