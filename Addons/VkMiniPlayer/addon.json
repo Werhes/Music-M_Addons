@@ -1,0 +1,10 @@
+{
+  "id": "vk_mini_player",
+  "name": "VK M Miniplayer",
+  "version": "1.0.0",
+  "author": "Werhes",
+  "description": "Мини-плеер в отдельном окне с кнопкой закрепить поверх всех окон. Использует ту же иконку, что и VK M.",
+  "minAppVersion": "1.0.0",
+  "addonType": "other",
+  "entryPoint": "VkMiniPlayer.dll"
+}
