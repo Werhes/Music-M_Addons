@@ -7,8 +7,9 @@ using Microsoft.UI.Xaml.Media.Animation;
 using Microsoft.UI.Xaml.Media.Imaging;
 using System;
 using System.IO;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
-using VK_UI3;
+using VK_UI3.Helpers;
 using VK_UI3.VKs.IVK;
 using Windows.Media;
 using Windows.Media.Playback;
@@ -25,11 +26,24 @@ namespace VkMiniPlayer
     {
         #region Fields
 
-        private DispatcherTimer _timer;
         private DateTime _lastPositionUpdate = DateTime.MinValue;
         private bool _isPinned = false;
         private AppWindow _appWindow;
         private OverlappedPresenter _presenter;
+
+        #endregion
+
+        #region Win32 Imports
+
+        [DllImport("user32.dll", CharSet = CharSet.Auto)]
+        private static extern IntPtr SendMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);
+
+        [DllImport("user32.dll", CharSet = CharSet.Auto)]
+        private static extern IntPtr LoadImage(IntPtr hinst, string lpszName, uint uType, int cxDesired, int cyDesired, uint fuLoad);
+
+        private const uint IMAGE_ICON = 1;
+        private const uint LR_LOADFROMFILE = 0x00000010;
+        private const uint WM_SETICON = 0x0080;
 
         #endregion
 
@@ -39,17 +53,6 @@ namespace VkMiniPlayer
         {
             get => VK_UI3.Services.MediaPlayerService.MediaPlayer;
             set => VK_UI3.Services.MediaPlayerService.MediaPlayer = value;
-        }
-
-        public static IVKGetAudio iVKGetAudio
-        {
-            get => VK_UI3.Services.MediaPlayerService.iVKGetAudio;
-            set
-            {
-                VK_UI3.Services.MediaPlayerService.iVKGetAudio = value;
-                MainView.mainView.setNewPlayingList(value);
-                VK_UI3.Controllers.AudioPlayer.NotifyoniVKUpdate();
-            }
         }
 
         public async Task<ExtendedAudio> GetTrackDataAsync()
@@ -137,22 +140,11 @@ namespace VkMiniPlayer
                 string iconPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "icon.ico");
                 if (File.Exists(iconPath))
                 {
-                    var hwnd = new Windows.Win32.Foundation.HWND(WindowNative.GetWindowHandle(this));
-                    using var iconHandle = Windows.Win32.PInvoke.LoadImage(
-                        IntPtr.Zero,
-                        iconPath,
-                        Windows.Win32.UI.WindowsAndMessaging.GDI_IMAGE_TYPE.IMAGE_ICON,
-                        32,
-                        32,
-                        Windows.Win32.UI.WindowsAndMessaging.IMAGE_FLAGS.LR_LOADFROMFILE);
-
-                    if (!iconHandle.IsInvalid)
+                    var hwnd = WindowNative.GetWindowHandle(this);
+                    IntPtr iconHandle = LoadImage(IntPtr.Zero, iconPath, IMAGE_ICON, 32, 32, LR_LOADFROMFILE);
+                    if (iconHandle != IntPtr.Zero)
                     {
-                        Windows.Win32.PInvoke.SendMessage(
-                            hwnd,
-                            Windows.Win32.PInvoke.WM_SETICON,
-                            new Windows.Win32.Foundation.WPARAM(0),
-                            new Windows.Win32.Foundation.LPARAM(iconHandle.DangerousGetHandle()));
+                        SendMessage(hwnd, WM_SETICON, IntPtr.Zero, iconHandle);
                     }
                 }
 
@@ -165,7 +157,7 @@ namespace VkMiniPlayer
                 }
                 else if (File.Exists(iconPath))
                 {
-                    // Пробуем загрузить png из Assets если есть
+                    // Пробуем загрузить StoreLogo если есть
                     string pngPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets", "StoreLogo.scale-400.png");
                     if (File.Exists(pngPath))
                     {
@@ -294,12 +286,6 @@ namespace VkMiniPlayer
             VK_UI3.Services.MediaPlayerService.PositionChanged -= OnPositionChanged;
             VK_UI3.Services.MediaPlayerService.MediaPlayer.CurrentStateChanged -= OnPlaybackStateChanged;
 
-            if (_timer != null)
-            {
-                _timer.Stop();
-                _timer.Tick -= Timer_Tick;
-            }
-
             this.Close();
         }
 
@@ -427,29 +413,14 @@ namespace VkMiniPlayer
 
         #endregion
 
-        #region Timer
-
-        private void Timer_Tick(object sender, object e)
-        {
-            try
-            {
-                if (MediaPlayer?.PlaybackSession != null)
-                {
-                    var position = MediaPlayer.PlaybackSession.Position;
-                }
-            }
-            catch { }
-        }
-
-        #endregion
-
         #region Helper Methods
 
         public static async Task<ExtendedAudio> _TrackDataThisGet(bool forced = false)
         {
-            if (iVKGetAudio != null && iVKGetAudio.countTracks != 0)
+            var iVK = VK_UI3.Services.MediaPlayerService.iVKGetAudio;
+            if (iVK != null && iVK.countTracks != 0)
             {
-                return await iVKGetAudio.GetTrackPlay(forced);
+                return await iVK.GetTrackPlay(forced);
             }
             return VK_UI3.Services.MediaPlayerService._trackDataThis;
         }

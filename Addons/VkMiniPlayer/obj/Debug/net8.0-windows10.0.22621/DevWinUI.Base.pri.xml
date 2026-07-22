@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="DevWinUI.Base" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN-US,FA-IR</Language>
+		</Qualifiers>
+		<ResourceMapSubtree name="DevWinUI.Base">
+			<ResourceMapSubtree name="Resources">
+				<NamedResource name="AMinuteAgo" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/AMinuteAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>یک دقیقه قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>a minute ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AnHourAgo" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/AnHourAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>یک ساعت قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>an hour ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InAMinute" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/InAMinute">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در یک دقیقه</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in a minute</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InAnHour" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/InAnHour">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در یک ساعت</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in an hour</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InManyDays" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/InManyDays">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در {0} روز</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in {0} days</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InManyHours" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/InManyHours">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در {0} ساعت</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in {0} hours</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InManyMinutes" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/InManyMinutes">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در {0} دقیقه</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in {0} minutes</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InManyMonths" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/InManyMonths">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در {0} ماه</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in {0} months</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InManySeconds" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/InManySeconds">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در {0} ثانیه</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in {0} seconds</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InManyYears" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/InManyYears">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در {0} سال</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in {0} years</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InOneMonth" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/InOneMonth">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در یک ماه</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in one month</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InOneSecond" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/InOneSecond">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در یک ثانیه</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in one second</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InOneYear" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/InOneYear">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در یک سال</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in one year</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ManyDaysAgo" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/ManyDaysAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>{0} روز قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>{0} days ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ManyHoursAgo" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/ManyHoursAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>{0} ساعت قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>{0} hours ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ManyMinutesAgo" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/ManyMinutesAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>{0} دقیقه قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>{0} minutes ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ManyMonthsAgo" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/ManyMonthsAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>{0} ماه قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>{0} months ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ManySecondsAgo" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/ManySecondsAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>{0} ثانیه قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>{0} seconds ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ManyYearsAgo" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/ManyYearsAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>{0} سال قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>{0} years ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Now" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/Now">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>اکنون</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>now</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="OneMonthAgo" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/OneMonthAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>یک ماه قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>one month ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="OneSecondAgo" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/OneSecondAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>یک ثانیه قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>one second ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="OneYearAgo" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/OneYearAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>یک سال قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>one year ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Tomorrow" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/Tomorrow">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>روز بعد</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>tomorrow</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="UseSystemSetting" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/UseSystemSetting">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>پیشفرض سیستم</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Use System Default</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Yesterday" uri="ms-resource://DevWinUI.Base/DevWinUI.Base/Resources/Yesterday">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>دیروز</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>yesterday</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="DevWinUI.Base">
+				<ResourceMapSubtree name="Common">
+					<ResourceMapSubtree name="EyeDropper">
+						<NamedResource name="EyeDropperPreviewWindow.xbf" uri="ms-resource://DevWinUI.Base/Files/DevWinUI.Base/Common/EyeDropper/EyeDropperPreviewWindow.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Services">
+					<ResourceMapSubtree name="NavigationService">
+						<NamedResource name="InternalAutoSuggestBoxItemTemplate.xbf" uri="ms-resource://DevWinUI.Base/Files/DevWinUI.Base/Services/NavigationService/InternalAutoSuggestBoxItemTemplate.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="VK UI3" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN-US,FA-IR</Language>
+			<Scale>400</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="DevWinUI.Base">
+			<ResourceMapSubtree name="Resources">
+				<NamedResource name="AMinuteAgo" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/AMinuteAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>یک دقیقه قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>a minute ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AnHourAgo" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/AnHourAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>یک ساعت قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>an hour ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InAMinute" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/InAMinute">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در یک دقیقه</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in a minute</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InAnHour" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/InAnHour">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در یک ساعت</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in an hour</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InManyDays" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/InManyDays">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در {0} روز</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in {0} days</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InManyHours" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/InManyHours">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در {0} ساعت</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in {0} hours</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InManyMinutes" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/InManyMinutes">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در {0} دقیقه</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in {0} minutes</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InManyMonths" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/InManyMonths">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در {0} ماه</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in {0} months</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InManySeconds" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/InManySeconds">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در {0} ثانیه</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in {0} seconds</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InManyYears" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/InManyYears">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در {0} سال</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in {0} years</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InOneMonth" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/InOneMonth">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در یک ماه</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in one month</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InOneSecond" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/InOneSecond">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در یک ثانیه</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in one second</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InOneYear" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/InOneYear">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>در یک سال</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>in one year</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ManyDaysAgo" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/ManyDaysAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>{0} روز قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>{0} days ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ManyHoursAgo" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/ManyHoursAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>{0} ساعت قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>{0} hours ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ManyMinutesAgo" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/ManyMinutesAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>{0} دقیقه قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>{0} minutes ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ManyMonthsAgo" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/ManyMonthsAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>{0} ماه قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>{0} months ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ManySecondsAgo" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/ManySecondsAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>{0} ثانیه قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>{0} seconds ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ManyYearsAgo" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/ManyYearsAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>{0} سال قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>{0} years ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Now" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/Now">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>اکنون</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>now</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="OneMonthAgo" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/OneMonthAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>یک ماه قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>one month ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="OneSecondAgo" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/OneSecondAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>یک ثانیه قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>one second ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="OneYearAgo" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/OneYearAgo">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>یک سال قبل</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>one year ago</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Tomorrow" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/Tomorrow">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>روز بعد</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>tomorrow</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="UseSystemSetting" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/UseSystemSetting">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>پیشفرض سیستم</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Use System Default</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Yesterday" uri="ms-resource://VK UI3/DevWinUI.Base/Resources/Yesterday">
+					<Candidate qualifiers="Language-FA-IR" type="String">
+						<Value>دیروز</Value>
+					</Candidate>
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>yesterday</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://VK UI3/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="icon.ico" uri="ms-resource://VK UI3/Files/icon.ico">
+				<Candidate type="Path">
+					<Value>icon.ico</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainWindow.xbf" uri="ms-resource://VK UI3/Files/MainWindow.xbf">
+				<Candidate type="Path">
+					<Value>MainWindow.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="StoreLogo.png" uri="ms-resource://VK UI3/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-400" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-400.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="SVGs">
+					<NamedResource name="bookmark-black-shape.svg" uri="ms-resource://VK UI3/Files/Assets/SVGs/bookmark-black-shape.svg">
+						<Candidate type="Path">
+							<Value>Assets\SVGs\bookmark-black-shape.svg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bookmark-white.svg" uri="ms-resource://VK UI3/Files/Assets/SVGs/bookmark-white.svg">
+						<Candidate type="Path">
+							<Value>Assets\SVGs\bookmark-white.svg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="thumb-dislike-fill.svg" uri="ms-resource://VK UI3/Files/Assets/SVGs/thumb-dislike-fill.svg">
+						<Candidate type="Path">
+							<Value>Assets\SVGs\thumb-dislike-fill.svg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="thumb-dislike.svg" uri="ms-resource://VK UI3/Files/Assets/SVGs/thumb-dislike.svg">
+						<Candidate type="Path">
+							<Value>Assets\SVGs\thumb-dislike.svg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="thumbdislike.xaml" uri="ms-resource://VK UI3/Files/Assets/SVGs/thumbdislike.xaml">
+						<Candidate type="Path">
+							<Value>Assets\SVGs\thumbdislike.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="thumbdislikefill.xaml" uri="ms-resource://VK UI3/Files/Assets/SVGs/thumbdislikefill.xaml">
+						<Candidate type="Path">
+							<Value>Assets\SVGs\thumbdislikefill.xaml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CommunityToolkit.WinUI.Controls.LayoutTransformControl">
+				<NamedResource name="LayoutTransformControl.xbf" uri="ms-resource://VK UI3/Files/CommunityToolkit.WinUI.Controls.LayoutTransformControl/LayoutTransformControl.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://VK UI3/Files/CommunityToolkit.WinUI.Controls.LayoutTransformControl/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CommunityToolkit.WinUI.Controls.Segmented">
+				<ResourceMapSubtree name="Segmented">
+					<NamedResource name="Segmented.xbf" uri="ms-resource://VK UI3/Files/CommunityToolkit.WinUI.Controls.Segmented/Segmented/Segmented.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="SegmentedItem">
+					<NamedResource name="SegmentedItem.xbf" uri="ms-resource://VK UI3/Files/CommunityToolkit.WinUI.Controls.Segmented/SegmentedItem/SegmentedItem.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://VK UI3/Files/CommunityToolkit.WinUI.Controls.Segmented/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="CommunityToolkit.WinUI.Controls.SettingsControls">
+				<ResourceMapSubtree name="SettingsCard">
+					<NamedResource name="SettingsCard.xbf" uri="ms-resource://VK UI3/Files/CommunityToolkit.WinUI.Controls.SettingsControls/SettingsCard/SettingsCard.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="SettingsExpander">
+					<NamedResource name="SettingsExpander.xbf" uri="ms-resource://VK UI3/Files/CommunityToolkit.WinUI.Controls.SettingsControls/SettingsExpander/SettingsExpander.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://VK UI3/Files/CommunityToolkit.WinUI.Controls.SettingsControls/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Controllers">
+				<NamedResource name="AccountController.xbf" uri="ms-resource://VK UI3/Files/Controllers/AccountController.xbf">
+					<Candidate type="Path">
+						<Value>Controllers\AccountController.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AudioPlayer.xbf" uri="ms-resource://VK UI3/Files/Controllers/AudioPlayer.xbf">
+					<Candidate type="Path">
+						<Value>Controllers\AudioPlayer.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ChooseLoginWayControl.xbf" uri="ms-resource://VK UI3/Files/Controllers/ChooseLoginWayControl.xbf">
+					<Candidate type="Path">
+						<Value>Controllers\ChooseLoginWayControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NavMenuController.xbf" uri="ms-resource://VK UI3/Files/Controllers/NavMenuController.xbf">
+					<Candidate type="Path">
+						<Value>Controllers\NavMenuController.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Controls">
+				<NamedResource name="ArtistMixButton.xbf" uri="ms-resource://VK UI3/Files/Controls/ArtistMixButton.xbf">
+					<Candidate type="Path">
+						<Value>Controls\ArtistMixButton.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AudioControlFlyOut.xbf" uri="ms-resource://VK UI3/Files/Controls/AudioControlFlyOut.xbf">
+					<Candidate type="Path">
+						<Value>Controls\AudioControlFlyOut.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BannerControl.xbf" uri="ms-resource://VK UI3/Files/Controls/BannerControl.xbf">
+					<Candidate type="Path">
+						<Value>Controls\BannerControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BlockControl.xbf" uri="ms-resource://VK UI3/Files/Controls/BlockControl.xbf">
+					<Candidate type="Path">
+						<Value>Controls\BlockControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ConcertControl.xbf" uri="ms-resource://VK UI3/Files/Controls/ConcertControl.xbf">
+					<Candidate type="Path">
+						<Value>Controls\ConcertControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DefaultControl.xbf" uri="ms-resource://VK UI3/Files/Controls/DefaultControl.xbf">
+					<Candidate type="Path">
+						<Value>Controls\DefaultControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LinksController.xbf" uri="ms-resource://VK UI3/Files/Controls/LinksController.xbf">
+					<Candidate type="Path">
+						<Value>Controls\LinksController.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LyricController.xbf" uri="ms-resource://VK UI3/Files/Controls/LyricController.xbf">
+					<Candidate type="Path">
+						<Value>Controls\LyricController.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MerchControl.xbf" uri="ms-resource://VK UI3/Files/Controls/MerchControl.xbf">
+					<Candidate type="Path">
+						<Value>Controls\MerchControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MixCropButton.xbf" uri="ms-resource://VK UI3/Files/Controls/MixCropButton.xbf">
+					<Candidate type="Path">
+						<Value>Controls\MixCropButton.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PlaylistControl.xbf" uri="ms-resource://VK UI3/Files/Controls/PlaylistControl.xbf">
+					<Candidate type="Path">
+						<Value>Controls\PlaylistControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RecommsPlaylist.xbf" uri="ms-resource://VK UI3/Files/Controls/RecommsPlaylist.xbf">
+					<Candidate type="Path">
+						<Value>Controls\RecommsPlaylist.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RecomUsersControl.xbf" uri="ms-resource://VK UI3/Files/Controls/RecomUsersControl.xbf">
+					<Candidate type="Path">
+						<Value>Controls\RecomUsersControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SuggestionsControl.xbf" uri="ms-resource://VK UI3/Files/Controls/SuggestionsControl.xbf">
+					<Candidate type="Path">
+						<Value>Controls\SuggestionsControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TitleBlockControl.xbf" uri="ms-resource://VK UI3/Files/Controls/TitleBlockControl.xbf">
+					<Candidate type="Path">
+						<Value>Controls\TitleBlockControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TrackControl.xbf" uri="ms-resource://VK UI3/Files/Controls/TrackControl.xbf">
+					<Candidate type="Path">
+						<Value>Controls\TrackControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="VibeControl.xbf" uri="ms-resource://VK UI3/Files/Controls/VibeControl.xbf">
+					<Candidate type="Path">
+						<Value>Controls\VibeControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="VideoController.xbf" uri="ms-resource://VK UI3/Files/Controls/VideoController.xbf">
+					<Candidate type="Path">
+						<Value>Controls\VideoController.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Blocks">
+					<NamedResource name="ArtistBannerBlockControl.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/ArtistBannerBlockControl.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\ArtistBannerBlockControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="BigBannerControl.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/BigBannerControl.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\BigBannerControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Buttons.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/Buttons.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\Buttons.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CuratorBannerBlockControl.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/CuratorBannerBlockControl.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\CuratorBannerBlockControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="GroupsBlockControl.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/GroupsBlockControl.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\GroupsBlockControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ListConcerts.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/ListConcerts.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\ListConcerts.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ListLinks.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/ListLinks.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\ListLinks.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ListMerch.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/ListMerch.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\ListMerch.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ListPlaylists.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/ListPlaylists.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\ListPlaylists.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ListTracks.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/ListTracks.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\ListTracks.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ListTracksFull.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/ListTracksFull.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\ListTracksFull.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ListVideo.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/ListVideo.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\ListVideo.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MixControl.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/MixControl.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\MixControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="OwnerCell.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/OwnerCell.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\OwnerCell.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PlaceHolderBig.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/PlaceHolderBig.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\PlaceHolderBig.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PlaceholderBlockControl.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/PlaceholderBlockControl.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\PlaceholderBlockControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="RecommsPlaylistBlock.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/RecommsPlaylistBlock.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\RecommsPlaylistBlock.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="RemomendedUsersPlaylist.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/RemomendedUsersPlaylist.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\RemomendedUsersPlaylist.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SuggestionsList.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/SuggestionsList.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\SuggestionsList.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TextsBlockControl.xbf" uri="ms-resource://VK UI3/Files/Controls/Blocks/TextsBlockControl.xbf">
+						<Candidate type="Path">
+							<Value>Controls\Blocks\TextsBlockControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DevWinUI">
+				<ResourceMapSubtree name="Controls">
+					<ResourceMapSubtree name="Ported">
+						<ResourceMapSubtree name="Sidebar">
+							<NamedResource name="SidebarView.xbf" uri="ms-resource://VK UI3/Files/DevWinUI/Controls/Ported/Sidebar/SidebarView.xbf">
+								<Candidate type="EmbeddedData">
+									<Base64Value>[Embedded Binary Data]</Base64Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="LandingPages">
+					<NamedResource name="AllLandingPage.xbf" uri="ms-resource://VK UI3/Files/DevWinUI/LandingPages/AllLandingPage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MainLandingPage.xbf" uri="ms-resource://VK UI3/Files/DevWinUI/LandingPages/MainLandingPage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SectionPage.xbf" uri="ms-resource://VK UI3/Files/DevWinUI/LandingPages/SectionPage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://VK UI3/Files/DevWinUI/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="InfoBarInformationalColor.xbf" uri="ms-resource://VK UI3/Files/DevWinUI/Themes/InfoBarInformationalColor.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="ItemTemplate">
+						<NamedResource name="GridViewItemTemplate.xbf" uri="ms-resource://VK UI3/Files/DevWinUI/Themes/ItemTemplate/GridViewItemTemplate.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="LoopingSelectorItemTemplate.xbf" uri="ms-resource://VK UI3/Files/DevWinUI/Themes/ItemTemplate/LoopingSelectorItemTemplate.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="OutOfBoxItemTemplate.xbf" uri="ms-resource://VK UI3/Files/DevWinUI/Themes/ItemTemplate/OutOfBoxItemTemplate.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="SidebarItemTemplate.xbf" uri="ms-resource://VK UI3/Files/DevWinUI/Themes/ItemTemplate/SidebarItemTemplate.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DevWinUI.Base">
+				<ResourceMapSubtree name="Common">
+					<ResourceMapSubtree name="EyeDropper">
+						<NamedResource name="EyeDropperPreviewWindow.xbf" uri="ms-resource://VK UI3/Files/DevWinUI.Base/Common/EyeDropper/EyeDropperPreviewWindow.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Services">
+					<ResourceMapSubtree name="NavigationService">
+						<NamedResource name="InternalAutoSuggestBoxItemTemplate.xbf" uri="ms-resource://VK UI3/Files/DevWinUI.Base/Services/NavigationService/InternalAutoSuggestBoxItemTemplate.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Helpers">
+				<ResourceMapSubtree name="Animations">
+					<NamedResource name="AnimatedNavMenuController.xbf" uri="ms-resource://VK UI3/Files/Helpers/Animations/AnimatedNavMenuController.xbf">
+						<Candidate type="Path">
+							<Value>Helpers\Animations\AnimatedNavMenuController.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="AnimatedSearch.xbf" uri="ms-resource://VK UI3/Files/Helpers/Animations/AnimatedSearch.xbf">
+						<Candidate type="Path">
+							<Value>Helpers\Animations\AnimatedSearch.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Resource">
+				<NamedResource name="icons.xbf" uri="ms-resource://VK UI3/Files/Resource/icons.xbf">
+					<Candidate type="Path">
+						<Value>Resource\icons.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Themes">
+				<NamedResource name="Generic.xbf" uri="ms-resource://VK UI3/Files/Themes/Generic.xbf">
+					<Candidate type="Path">
+						<Value>Themes\Generic.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Views">
+				<NamedResource name="AddonStorePage.xbf" uri="ms-resource://VK UI3/Files/Views/AddonStorePage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AddonStorePage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorPage.xbf" uri="ms-resource://VK UI3/Files/Views/ErrorPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\ErrorPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FullScreenWindow.xbf" uri="ms-resource://VK UI3/Files/Views/FullScreenWindow.xbf">
+					<Candidate type="Path">
+						<Value>Views\FullScreenWindow.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MainMenu.xbf" uri="ms-resource://VK UI3/Files/Views/MainMenu.xbf">
+					<Candidate type="Path">
+						<Value>Views\MainMenu.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MainView.xbf" uri="ms-resource://VK UI3/Files/Views/MainView.xbf">
+					<Candidate type="Path">
+						<Value>Views\MainView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MiniAppView.xbf" uri="ms-resource://VK UI3/Files/Views/MiniAppView.xbf">
+					<Candidate type="Path">
+						<Value>Views\MiniAppView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PlayList.xbf" uri="ms-resource://VK UI3/Files/Views/PlayList.xbf">
+					<Candidate type="Path">
+						<Value>Views\PlayList.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PlayListPage.xbf" uri="ms-resource://VK UI3/Files/Views/PlayListPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\PlayListPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SectionView.xbf" uri="ms-resource://VK UI3/Files/Views/SectionView.xbf">
+					<Candidate type="Path">
+						<Value>Views\SectionView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="UpdatePage.xbf" uri="ms-resource://VK UI3/Files/Views/UpdatePage.xbf">
+					<Candidate type="Path">
+						<Value>Views\UpdatePage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="UserPlayList.xbf" uri="ms-resource://VK UI3/Files/Views/UserPlayList.xbf">
+					<Candidate type="Path">
+						<Value>Views\UserPlayList.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WaitView.xbf" uri="ms-resource://VK UI3/Files/Views/WaitView.xbf">
+					<Candidate type="Path">
+						<Value>Views\WaitView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WhatListeningPage.xbf" uri="ms-resource://VK UI3/Files/Views/WhatListeningPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\WhatListeningPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Controls">
+					<NamedResource name="AddonStoreItemControl.xbf" uri="ms-resource://VK UI3/Files/Views/Controls/AddonStoreItemControl.xbf">
+						<Candidate type="Path">
+							<Value>Views\Controls\AddonStoreItemControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="BannerControlUnivers.xbf" uri="ms-resource://VK UI3/Files/Views/Controls/BannerControlUnivers.xbf">
+						<Candidate type="Path">
+							<Value>Views\Controls\BannerControlUnivers.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="BlockButtonView.xbf" uri="ms-resource://VK UI3/Files/Views/Controls/BlockButtonView.xbf">
+						<Candidate type="Path">
+							<Value>Views\Controls\BlockButtonView.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ChoosenControl.xbf" uri="ms-resource://VK UI3/Files/Views/Controls/ChoosenControl.xbf">
+						<Candidate type="Path">
+							<Value>Views\Controls\ChoosenControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CustomVideoTrailer.xbf" uri="ms-resource://VK UI3/Files/Views/Controls/CustomVideoTrailer.xbf">
+						<Candidate type="Path">
+							<Value>Views\Controls\CustomVideoTrailer.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ListeningContentItemControl.xbf" uri="ms-resource://VK UI3/Files/Views/Controls/ListeningContentItemControl.xbf">
+						<Candidate type="Path">
+							<Value>Views\Controls\ListeningContentItemControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SocialLinkButtonControl.xbf" uri="ms-resource://VK UI3/Files/Views/Controls/SocialLinkButtonControl.xbf">
+						<Candidate type="Path">
+							<Value>Views\Controls\SocialLinkButtonControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="UniversalControl.xbf" uri="ms-resource://VK UI3/Files/Views/Controls/UniversalControl.xbf">
+						<Candidate type="Path">
+							<Value>Views\Controls\UniversalControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="VideoView.xbf" uri="ms-resource://VK UI3/Files/Views/Controls/VideoView.xbf">
+						<Candidate type="Path">
+							<Value>Views\Controls\VideoView.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="WhatListeningItemControl.xbf" uri="ms-resource://VK UI3/Files/Views/Controls/WhatListeningItemControl.xbf">
+						<Candidate type="Path">
+							<Value>Views\Controls\WhatListeningItemControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Download">
+					<NamedResource name="DownloadController.xbf" uri="ms-resource://VK UI3/Files/Views/Download/DownloadController.xbf">
+						<Candidate type="Path">
+							<Value>Views\Download\DownloadController.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="DownloadFFmpegController.xbf" uri="ms-resource://VK UI3/Files/Views/Download/DownloadFFmpegController.xbf">
+						<Candidate type="Path">
+							<Value>Views\Download\DownloadFFmpegController.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="DownloadsList.xbf" uri="ms-resource://VK UI3/Files/Views/Download/DownloadsList.xbf">
+						<Candidate type="Path">
+							<Value>Views\Download\DownloadsList.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="LoginWindow">
+					<NamedResource name="AccountList.xbf" uri="ms-resource://VK UI3/Files/Views/LoginWindow/AccountList.xbf">
+						<Candidate type="Path">
+							<Value>Views\LoginWindow\AccountList.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ChooseVerMethods.cs.xbf" uri="ms-resource://VK UI3/Files/Views/LoginWindow/ChooseVerMethods.cs.xbf">
+						<Candidate type="Path">
+							<Value>Views\LoginWindow\ChooseVerMethods.cs.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Login.xbf" uri="ms-resource://VK UI3/Files/Views/LoginWindow/Login.xbf">
+						<Candidate type="Path">
+							<Value>Views\LoginWindow\Login.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="OtpCode.xbf" uri="ms-resource://VK UI3/Files/Views/LoginWindow/OtpCode.xbf">
+						<Candidate type="Path">
+							<Value>Views\LoginWindow\OtpCode.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Password.xbf" uri="ms-resource://VK UI3/Files/Views/LoginWindow/Password.xbf">
+						<Candidate type="Path">
+							<Value>Views\LoginWindow\Password.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="ModalsPages">
+					<NamedResource name="CaptchaEnter.xbf" uri="ms-resource://VK UI3/Files/Views/ModalsPages/CaptchaEnter.xbf">
+						<Candidate type="Path">
+							<Value>Views\ModalsPages\CaptchaEnter.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CreatePlayList.xbf" uri="ms-resource://VK UI3/Files/Views/ModalsPages/CreatePlayList.xbf">
+						<Candidate type="Path">
+							<Value>Views\ModalsPages\CreatePlayList.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CreatePost.xbf" uri="ms-resource://VK UI3/Files/Views/ModalsPages/CreatePost.xbf">
+						<Candidate type="Path">
+							<Value>Views\ModalsPages\CreatePost.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CustomDialog.xbf" uri="ms-resource://VK UI3/Files/Views/ModalsPages/CustomDialog.xbf">
+						<Candidate type="Path">
+							<Value>Views\ModalsPages\CustomDialog.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="EditTrack.xbf" uri="ms-resource://VK UI3/Files/Views/ModalsPages/EditTrack.xbf">
+						<Candidate type="Path">
+							<Value>Views\ModalsPages\EditTrack.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="EqualizerControl.xbf" uri="ms-resource://VK UI3/Files/Views/ModalsPages/EqualizerControl.xbf">
+						<Candidate type="Path">
+							<Value>Views\ModalsPages\EqualizerControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="EqualizerControlPage.xbf" uri="ms-resource://VK UI3/Files/Views/ModalsPages/EqualizerControlPage.xbf">
+						<Candidate type="Path">
+							<Value>Views\ModalsPages\EqualizerControlPage.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="LyricsPage.xbf" uri="ms-resource://VK UI3/Files/Views/ModalsPages/LyricsPage.xbf">
+						<Candidate type="Path">
+							<Value>Views\ModalsPages\LyricsPage.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SettingMix.xbf" uri="ms-resource://VK UI3/Files/Views/ModalsPages/SettingMix.xbf">
+						<Candidate type="Path">
+							<Value>Views\ModalsPages\SettingMix.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="waitPage.xbf" uri="ms-resource://VK UI3/Files/Views/ModalsPages/waitPage.xbf">
+						<Candidate type="Path">
+							<Value>Views\ModalsPages\waitPage.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="MixControls">
+						<NamedResource name="BTNSControl.xbf" uri="ms-resource://VK UI3/Files/Views/ModalsPages/MixControls/BTNSControl.xbf">
+							<Candidate type="Path">
+								<Value>Views\ModalsPages\MixControls\BTNSControl.xbf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="PicturedButton.xbf" uri="ms-resource://VK UI3/Files/Views/ModalsPages/MixControls/PicturedButton.xbf">
+							<Candidate type="Path">
+								<Value>Views\ModalsPages\MixControls\PicturedButton.xbf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="PicturedControl.xbf" uri="ms-resource://VK UI3/Files/Views/ModalsPages/MixControls/PicturedControl.xbf">
+							<Candidate type="Path">
+								<Value>Views\ModalsPages\MixControls\PicturedControl.xbf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="SimpleButtons.xbf" uri="ms-resource://VK UI3/Files/Views/ModalsPages/MixControls/SimpleButtons.xbf">
+							<Candidate type="Path">
+								<Value>Views\ModalsPages\MixControls\SimpleButtons.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Notification">
+					<NamedResource name="NotifController.xbf" uri="ms-resource://VK UI3/Files/Views/Notification/NotifController.xbf">
+						<Candidate type="Path">
+							<Value>Views\Notification\NotifController.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NotificationList.xbf" uri="ms-resource://VK UI3/Files/Views/Notification/NotificationList.xbf">
+						<Candidate type="Path">
+							<Value>Views\Notification\NotificationList.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Search">
+					<NamedResource name="SearchView.xbf" uri="ms-resource://VK UI3/Files/Views/Search/SearchView.xbf">
+						<Candidate type="Path">
+							<Value>Views\Search\SearchView.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Settings">
+					<NamedResource name="AddonStoreSettingsExpander.xbf" uri="ms-resource://VK UI3/Files/Views/Settings/AddonStoreSettingsExpander.xbf">
+						<Candidate type="Path">
+							<Value>Views\Settings\AddonStoreSettingsExpander.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ConfettiSettingsExpander.xbf" uri="ms-resource://VK UI3/Files/Views/Settings/ConfettiSettingsExpander.xbf">
+						<Candidate type="Path">
+							<Value>Views\Settings\ConfettiSettingsExpander.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FfmpegSettingsExpander.xbf" uri="ms-resource://VK UI3/Files/Views/Settings/FfmpegSettingsExpander.xbf">
+						<Candidate type="Path">
+							<Value>Views\Settings\FfmpegSettingsExpander.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="HotkeySettingControl.xbf" uri="ms-resource://VK UI3/Files/Views/Settings/HotkeySettingControl.xbf">
+						<Candidate type="Path">
+							<Value>Views\Settings\HotkeySettingControl.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="HotkeySettingControlDevWinUI.xbf" uri="ms-resource://VK UI3/Files/Views/Settings/HotkeySettingControlDevWinUI.xbf">
+						<Candidate type="Path">
+							<Value>Views\Settings\HotkeySettingControlDevWinUI.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="HotkeySettingsExpander.xbf" uri="ms-resource://VK UI3/Files/Views/Settings/HotkeySettingsExpander.xbf">
+						<Candidate type="Path">
+							<Value>Views\Settings\HotkeySettingsExpander.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SettingsPage.xbf" uri="ms-resource://VK UI3/Files/Views/Settings/SettingsPage.xbf">
+						<Candidate type="Path">
+							<Value>Views\Settings\SettingsPage.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SnowflakesSettingsExpander.xbf" uri="ms-resource://VK UI3/Files/Views/Settings/SnowflakesSettingsExpander.xbf">
+						<Candidate type="Path">
+							<Value>Views\Settings\SnowflakesSettingsExpander.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Share">
+					<NamedResource name="ConversationsList.xbf" uri="ms-resource://VK UI3/Files/Views/Share/ConversationsList.xbf">
+						<Candidate type="Path">
+							<Value>Views\Share\ConversationsList.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FriendsList.xbf" uri="ms-resource://VK UI3/Files/Views/Share/FriendsList.xbf">
+						<Candidate type="Path">
+							<Value>Views\Share\FriendsList.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="ShareControllers">
+						<NamedResource name="ConvController.xbf" uri="ms-resource://VK UI3/Files/Views/Share/ShareControllers/ConvController.xbf">
+							<Candidate type="Path">
+								<Value>Views\Share\ShareControllers\ConvController.xbf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="UserControllers.xbf" uri="ms-resource://VK UI3/Files/Views/Share/ShareControllers/UserControllers.xbf">
+							<Candidate type="Path">
+								<Value>Views\Share\ShareControllers\UserControllers.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Tasks">
+					<NamedResource name="TaskController.xbf" uri="ms-resource://VK UI3/Files/Views/Tasks/TaskController.xbf">
+						<Candidate type="Path">
+							<Value>Views\Tasks\TaskController.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="TaskList.xbf" uri="ms-resource://VK UI3/Files/Views/Tasks/TaskList.xbf">
+						<Candidate type="Path">
+							<Value>Views\Tasks\TaskList.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Upload">
+					<NamedResource name="UploadController.xbf" uri="ms-resource://VK UI3/Files/Views/Upload/UploadController.xbf">
+						<Candidate type="Path">
+							<Value>Views\Upload\UploadController.xbf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="UploadList.xbf" uri="ms-resource://VK UI3/Files/Views/Upload/UploadList.xbf">
+						<Candidate type="Path">
+							<Value>Views\Upload\UploadList.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinUICommunity.Components">
+				<ResourceMapSubtree name="Controls">
+					<ResourceMapSubtree name="ColorPalette">
+						<NamedResource name="ColorPalette.xbf" uri="ms-resource://VK UI3/Files/WinUICommunity.Components/Controls/ColorPalette/ColorPalette.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="OOBEPageControl">
+						<NamedResource name="OOBEPageControl.xbf" uri="ms-resource://VK UI3/Files/WinUICommunity.Components/Controls/OOBEPageControl/OOBEPageControl.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="SettingsPageControl">
+						<NamedResource name="SettingsPageControl.xbf" uri="ms-resource://VK UI3/Files/WinUICommunity.Components/Controls/SettingsPageControl/SettingsPageControl.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="Shortcut">
+						<NamedResource name="ShortcutDialogContentControl.xbf" uri="ms-resource://VK UI3/Files/WinUICommunity.Components/Controls/Shortcut/ShortcutDialogContentControl.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="ShortcutWithTextLabelControl.xbf" uri="ms-resource://VK UI3/Files/WinUICommunity.Components/Controls/Shortcut/ShortcutWithTextLabelControl.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://VK UI3/Files/WinUICommunity.Components/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="InfoBarInformationalColor.xbf" uri="ms-resource://VK UI3/Files/WinUICommunity.Components/Themes/InfoBarInformationalColor.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NavigationViewItemStyle.xbf" uri="ms-resource://VK UI3/Files/WinUICommunity.Components/Themes/NavigationViewItemStyle.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
